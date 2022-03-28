@@ -64,10 +64,58 @@ header {
     box-shadow: 8px 8px 8px 8px #F4DED3;
 }
 
+.logo_css {
+    width: 40px;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+.logo_figma {
+    width: 40px;
+    position: absolute;
+    left: 6%;
+    top: 75%;
+}
+.logo_symphony {
+    width: 40px;
+    position: absolute;
+    left: 20%;
+    top: 13%;
+}
+.logo_bookstrap {
+    width: 40px;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+}
+.logo_javascript {
+    width: 40px;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+}
+.logo_html {
+    width: 40px;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+.logo_php {
+    width: 40px;
+    position: absolute;
+    left: 33%;
+    top: 25%;
+}
+.logo_code {
+    width: 40px;
+    position: absolute;
+    left: 33%;
+    top: 75%;
+}
 .text_accroche_h {
     position: absolute;
-    right: 900px;
-    top: 300px;
+    left: 45%;
+    top: 30%;
     font-family: 'Redressed';
     font-style: normal;
     font-weight: 400;
@@ -81,8 +129,8 @@ header {
 
 .text_accroche_b {
     position: absolute;
-    right: 490px;
-    top: 400px;
+    left: 45%;
+    top: 37%;
     font-family: 'Ruda';
     font-style: Bold;
     font-weight: 700;
@@ -96,8 +144,8 @@ header {
 
 .text_accroche_d {
     position: absolute;
-    right: 275px;
-    top: 500px;
+    left: 45%;
+    top: 45%;
     font-family: 'Reenie Beanie';
     font-style: normal;
     font-weight: 500;
@@ -111,8 +159,8 @@ header {
 
 .btn_cv_t {
     position: absolute;
-    left: 18px;
-    top: 15px;
+    left: 5%;
+    top: 20%;
     font-family: 'Redressed';
     font-style: normal;
     font-weight: 400;
@@ -532,9 +580,121 @@ header {
 
 /*section expériences*/
 
-#experiences img {
+.barre_centrale {
+    position: absolute;
+    height: 5px;
+    width: 610px;
+    top: 55%;
+    left: 32%;
+    border: 8px solid #F4DED3;
+    background-color: #F4DED3;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.etoile_blanche {
+    position: absolute;
+    width: 200px;
+    top: 15%;
+    left: 25%;
+
+}
+
+.triangle_1 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 48.5%;
+    top: 30%;
+    border-left: 25px solid transparent;
+    border-bottom: 45px solid #F4DED3;
+    border-right: 25px solid transparent;
+    transform: rotate(90deg);
+}
+
+.trait_1 {
+    position: absolute;
+    width: 260px;
+    top: 31.5%;
+    right: 31.5%;
+    border: 3px solid #F4DED3;
+    border-radius: 30px;
+}
+
+.triangle_2 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 44%;
+    top: 45%;
+    border-left: 25px solid transparent;
+    border-bottom: 45px solid #F4DED3;
+    border-right: 25px solid transparent;
+    transform: rotate(-90deg);
+}
+
+.trait_2 {
+    position: absolute;
+    width: 150px;
+    top: 48%;
+    left: 32.5%;
+    border: 3px solid #F4DED3;
+    border-radius: 30px;
+}
+
+.triangle_3 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 48.5%;
+    top: 60%;
+    border-left: 25px solid transparent;
+    border-bottom: 45px solid #F4DED3;
+    border-right: 25px solid transparent;
+    transform: rotate(90deg);
+}
+
+.trait_3 {
+    position: absolute;
+    width: 200px;
+    top: 62%;
+    right: 35.5%;
+    border: 3px solid #F4DED3;
+    border-radius: 30px;
+}
+
+.triangle_4 {
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 44%;
+    top: 75%;
+    border-left: 25px solid transparent;
+    border-bottom: 45px solid #F4DED3;
+    border-right: 25px solid transparent;
+    transform: rotate(-90deg);
+}
+
+.trait_4 {
+    position: absolute;
+    width: 200px;
+    top: 78%;
+    left: 30%;
+    border: 3px solid #F4DED3;
+    border-radius: 30px;
+}
+
+.img_1 {
     position: absolute;
     right: 0;
+}
+
+.img_2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg);
 }
 
 #experiences {
@@ -577,8 +737,8 @@ header {
 
 .post_1 {
     position: absolute;
-    left: 55%;
-    top: 35%;
+    left: 53%;
+    top: 25%;
     font-family: 'Reenie Beanie';
     font-style: normal;
     font-weight: 500;
@@ -591,8 +751,8 @@ header {
 
 .post_2 {
     position: absolute;
-    left: 20%;
-    top: 45%;
+    left: 32%;
+    top: 42%;
     font-family: 'Redressed';
     font-style: normal;
     font-weight: 400;
@@ -605,8 +765,8 @@ header {
 
 .post_3 {
     position: absolute;
-    left: 55%;
-    top: 55%;
+    left: 53%;
+    top: 56.5%;
     font-family: 'Redressed';
     font-style: normal;
     font-weight: 400;
@@ -619,8 +779,8 @@ header {
 
 .post_4 {
     position: absolute;
-    left: 20%;
-    top: 65%;
+    left: 28%;
+    top: 72%;
     font-family: 'Reenie Beanie';
     font-style: normal;
     font-weight: 500;
@@ -637,6 +797,25 @@ header {
     position: relative;
     width: 100vw;
     height: 100vh;
+}
+
+.ligne_pointilles {
+    position: absolute;
+    width: 500px;
+    left: 37.5%;
+    top: 70%;
+    border: 3px dashed #F4DED3;
+    transform: rotate(90deg);
+}
+
+.ligne_horizontal_1 {
+    position: absolute;
+    width: 800px;
+    bottom: 2%;
+    left: 30%;
+    border: 4px solid #B1E4D7;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5); 
 }
 
 .competences {
@@ -684,7 +863,7 @@ header {
 .les_competences {
     position: absolute;
     left: 20%;
-    top: 40%;
+    top: 48%;
     font-family: 'Ruda';
     font-style: normal;
     font-weight: 500;
@@ -712,46 +891,46 @@ header {
 }
 
 .point_1 {
-    position: relative;
+    position: absolute;
     height: 47px;
-    width: 47.10888671875px;
-    left: 843.9501953125px;
-    top: 210px;
+    width: 47px;
+    left: 49.5%;
+    top: 26.5%;
     border-radius: 50%;
     background: #F4DED3;
     box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5);
 }
 
 .point_2 {
-    position: relative;
-    height: 47px;
-    width: 47.10888671875px;
-    left: 843.9501953125px;
-    top: 210px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 50.05%;
+    top: 27.5%;
     border-radius: 50%;
     background: #B1E4D7;
     box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5);
 }
 
 .lignes_fine_carre {
-    position: relative;
-    /*right: 10%;
-    top: 40%;*/
+    position: absolute;
     width: 603px;
-    left: 106px;
-    top: 233px;
-    border-radius: 10px;
-    border: 8px solid #F4DED3;
+    left: 8%;
+    top: 28%;
+    border-radius: 15px;
+    border: 5px solid #F4DED3;
+    background: #F4DED3;
     transform: matrix(1, 0.01, -0.01, 1, 0, 0);
 }
 
 .lignes_fine_carre_2 {
-    position: relative;
+    position: absolute;
     width: 603px;
-    left: 106px;
-    top: 233px;
-    border-radius: 10px;
-    border: 8px solid #F4DED3;
+    right: 8%;
+    top: 28%;
+    border-radius: 15px;
+    border: 5px solid #F4DED3;
+    background: #F4DED3;
     transform: matrix(1, 0.01, -0.01, 1, 0, 0);
 }
 
@@ -857,7 +1036,7 @@ header {
     box-sizing: border-box;
 }
 
-.cercle_tel svg {
+.tel_svg {
     position: absolute;
     width: 100px;
     left: 30%;
@@ -888,7 +1067,7 @@ header {
     box-sizing: border-box;
 }
 
-.cercle_email svg {
+.e_mail_svg {
     position: absolute;
     width: 100px;
     left: 32%;
@@ -918,19 +1097,19 @@ header {
 }
 
 .linkedin {
-    position: relative;
+    position: absolute;
     width: 50%;
     left: 3%;
 }
 
-.cercle_link svg {
+.linkedin {
     position: absolute;
     width: 100px;
     left: 25%;
     top: 23%;
 }
 
-.cercle_github svg {
+.cercle_github .github {
     position: absolute;
     width: 100px;
     left: 25%;
@@ -965,3 +1144,5 @@ header {
     bottom: 0;
     background: #B1E4D7;
 }
+
+/* médiaqueries */
