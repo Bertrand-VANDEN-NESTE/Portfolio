@@ -47,156 +47,98 @@ table {
 /* RESET DES PARAMETRES CSS */
 
 header {
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
 
-#image_profil {
+.self {
     position: relative;
-    height: 597px;
-    width: 578px;
-    left: 5%;
-    top: 20%;
     border-radius: 50%;
-    background: url(1582758581175-removebg-preview.png), linear-gradient(180deg, #B1E4D7 0%, #FFFFFF 20.31%, #F4DED3 39.06%, #FFFFFF 59.37%, #B1E4D7 93.75%);
-    mix-blend-mode: normal;
-    box-shadow: 8px 8px 8px 8px #F4DED3;
+    border: 15px solid #F4DED3;
+    margin-top: 5rem;
+}
+
+.logo_css, .logo_figma, .logo_symphony, .logo_bookstrap , .logo_javascript, .logo_html, .logo_php, .logo_code {
+    width: 3%;
+    position: absolute;
 }
 
 .logo_css {
-    width: 40px;
-    position: absolute;
-    left: 1%;
-    top: 50%;
+    left: 12%;
+    top: 35%;
 }
 .logo_figma {
-    width: 40px;
-    position: absolute;
-    left: 6%;
-    top: 75%;
+    left: 13%;
+    bottom: 35%;
 }
 .logo_symphony {
-    width: 40px;
-    position: absolute;
-    left: 20%;
-    top: 13%;
+    left: 39%;
+    top: 10%;
 }
 .logo_bookstrap {
-    width: 40px;
-    position: absolute;
-    left: 37%;
-    top: 50%;
+    left: 43%;
+    bottom: 35%;
 }
 .logo_javascript {
-    width: 40px;
-    position: absolute;
-    left: 20%;
-    bottom: 10%;
+    left: 18%;
+    bottom: 19%;
 }
 .logo_html {
-    width: 40px;
-    position: absolute;
-    left: 5%;
-    top: 25%;
+    left: 18%;
+    top: 9%;
 }
 .logo_php {
-    width: 40px;
-    position: absolute;
-    left: 33%;
-    top: 25%;
+    left: 45%;
+    top: 35%;
 }
 .logo_code {
-    width: 40px;
-    position: absolute;
-    left: 33%;
-    top: 75%;
+    left: 36%;
+    bottom: 18%;
 }
 .text_accroche_h {
     position: absolute;
-    left: 45%;
+    left: 55%;
     top: 30%;
     font-family: 'Redressed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    display: flex;
-    align-items: center;
+    font-size: 4rem;
     color: #B1E4D7;
     text-shadow: 0px 4px 4px #F4DED3;
 }
 
 .text_accroche_b {
     position: absolute;
-    left: 45%;
-    top: 37%;
+    left: 55%;
+    top: 42%;
     font-family: 'Ruda';
     font-style: Bold;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58.42px;
-    display: flex;
-    align-items: center;
+    font-size: 3rem;
     color: #B1E4D7;
     text-shadow: 0px 4px 4px #F4DED3;
 }
 
 .text_accroche_d {
     position: absolute;
-    left: 45%;
-    top: 45%;
+    left: 55%;
+    top: 50%;
     font-family: 'Reenie Beanie';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
+    font-size: 4rem;
     color: #B1E4D7;
     text-shadow: 0px 4px 4px #F4DED3;
 }
 
-.btn_cv_t {
-    position: absolute;
-    left: 5%;
-    top: 20%;
-    font-family: 'Redressed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 8px #C0564B;
-}
-
 #btn_cv {
     position: absolute;
-    height: 83px;
-    width: 294px;
     left: 60%;
     top: 70%;
-    background: #F4DED3;
+    background-color: #F4DED3;
     box-shadow: 0px 8px 8px #B1E4D7;
     border-radius: 10px;
 }
 
-#cercle {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 10%;
-}
-
-.self {
-    position: absolute;
-    width: 90%;
-    left: 3%;
-    bottom: 0%;
-    border-radius: 50%;
+.btn {
+    font-style: 'Reenie Beanie';
+    background-color: #F4DED3;
+    border-color: #F4DED3;
 }
 
 /* deuxième page */
@@ -208,36 +150,38 @@ header {
 }
 
 .front_block {
-    height: 639px;
-    width: 514px;
+    height: 65vh;
+    width: 25vw;
     position: absolute;
-    left: 300px;
+    left: 20%;
     top: 20%;
     background: rgba(177, 228, 215, 1);
     box-shadow: 15px 15px 15px #F4DED3;
     border-radius: 10px;
 }
 
-.front_back_f {
-    padding-top: 50px;
-    font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+.front_block img {
+    width: 8vw;
     display: block;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front_back_f {
+    padding-top: 16%;
+    font-family: 'Ruda';
+    font-size: 3rem;
     text-align: center;
     color: #F4DED3;
     text-shadow: 2px 2px 2px #C0564B;
 }
 
 .front_back_s {
-    padding-top: 150px;
+    padding-top: 10%;
     font-family: 'Redressed';
     font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 2rem;
     display: block;
     text-align: center;
     color: #FFFFFF;
@@ -245,12 +189,10 @@ header {
 }
 
 .front_back_e {
-    padding-top: 40px;
+    padding-top: 5%;
     font-family: 'Redressed';
     font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 2rem;
     display: block;
     text-align: center;
     color: #FFFFFF;
@@ -258,32 +200,40 @@ header {
 }
 
 .back_block {
-    height: 639px;
-    width: 514px;
+    height: 65vh;
+    width: 25vw;
     position: absolute;
-    right: 300px;
+    right: 20%;
     top: 20%;
     background: rgba(177, 228, 215, 1);
     box-shadow: 15px 15px 15px #F4DED3;
     border-radius: 10px;
 }
 
+.back_block img{
+    width: 8vw;
+    display: block;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .front_back_b {
     font-family: 'Ruda';
     font-style: normal;
-    font-size: 64px;
+    font-size: 3rem;
     display: block;
-    padding-top: 50px;
+    padding-top: 16%;
     text-align: center;
     color: #F4DED3;
     text-shadow: 2px 2px 2px #C0564B;
 }
 
 .front_back_si {
-    padding-top: 150px;
+    padding-top: 10%;
     font-family: 'Redressed';
     font-style: normal;
-    font-size: 48px;
+    font-size: 2rem;
     display: block;
     text-align: center;
     color: #FFFFFF;
@@ -291,10 +241,10 @@ header {
 }
 
 .front_back_ba {
-    padding-top: 40px;
+    padding-top: 5%;
     font-family: 'Redressed';
     font-style: normal;
-    font-size: 48px;
+    font-size: 2rem;
     display: block;
     text-align: center;
     color: #FFFFFF;
@@ -310,89 +260,29 @@ header {
 }
 
 .portfolio {
-    position: absolute;
-    left: 30%;
-    top: 5%;
-    bottom: 79.62%;
+    display: block;
     font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 117px;
-    align-items: center;
-    text-align: center;
+    font-size: 4rem;
+    margin-left: 30%;
+    margin-top: 10%;
     color: #F4DED3;
 }
 
 .mes_projets {
-    position: absolute;
-    left: 55%;
-    top: 15%;
+    display: block;
     font-family: 'Redressed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 75px;
-    align-items: center;
-    text-align: center;
+    font-size: 4rem;
+    margin-left: 45%;
     color: #B1E4D7;
 }
 
-.cercle_portfolio {
-    position: absolute;
-    height: 458.72845458984375px;
-    width: 479.56622314453125px;
-    left: 256.51214599609375px;
-    top: 366.271484375px;
-    background-image: url(img/Capture\ d’écran\ 2022-03-28\ à\ 10.08.24.png);
-    border: solid 40px;
-    border-color: #B1E4D7;
+.projet_image {
     border-radius: 50%;
-    margin-left: 25%;
-}
-
-.cercle_portfolio_1 {
-    position: absolute;
-    height: 118.53448486328125px;
-    width: 123.9189453125px;
-    left: 546.482421875px;
-    top: 307.00439453125px;
-    border-radius: 50%;
-    background: #F4DED3;
-    margin-left: 25%;
-}
-
-.cercle_portfolio_2 {
-    position: absolute;
-    height: 118.53448486328125px;
-    width: 123.91888427734375px;
-    left: 658.0094604492188px;
-    top: 393.534423828125px;
-    border-radius: 50%;
-    background: #F4DED3;
-    margin-left: 25%;
-}
-
-.cercle_portfolio_3 {
-    position: absolute;
-    height: 118.534423828125px;
-    width: 123.91888427734375px;
-    left: 719.9689331054688px;
-    top: 536.961181640625px;
-    border-radius: 50%;
-    background: #F4DED3;
-    margin-left: 25%;
-}
-
-.cercle_portfolio_4 {
-    position: absolute;
-    height: 118.53448486328125px;
-    width: 123.91888427734375px;
-    left: 658.0094604492188px;
-    top: 680.387939453125px;
-    border-radius: 50%;
-    background: #F4DED3;
-    margin-left: 25%;
+    display: block;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid #F4DED3;
 }
 
 /* Diplômes formations*/
@@ -406,9 +296,9 @@ header {
 .mes_diplomes img {
     position: absolute;
     z-index: -1;
-    width: 400px;
-    left: -200px;
-    top:-130px;
+    width: 100%;
+    left: -50%;
+    top:-70%;
 }
 
 .mes_diplomes {
@@ -417,8 +307,8 @@ header {
     top: 5%;
     font-family: 'Redressed';
     font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
+    font-weight: 400%;
+    font-size: 600%;
     align-items: center;
     text-align: center;
     color: #F4DED3;
@@ -431,9 +321,9 @@ header {
     top: 15%;
     font-family: 'Reenie Beanie';
     font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 96px;
+    font-weight: 500%;
+    font-size: 600%;
+    line-height: 150%;
     align-items: center;
     text-align: center;
     color: #B1E4D7;
@@ -452,13 +342,13 @@ header {
 
 .class_1 {
     position: absolute;
-    left: 15%;
+    left: 14%;
     top: 50%;
     font-family: 'Ruda';
     font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 34px;
+    font-weight: 500%;
+    font-size: 200%;
+    line-height: 34%;
     align-items: center;
     text-align: center;
     color: #F4DED3;
@@ -467,8 +357,7 @@ header {
 
 .class_1_1_1 {
     position: absolute;
-    height: 70px;
-    width: 21.825073242187592px;
+    height: 7%;
     top: 55%;
     left: 16%;
     border-radius: 20px;
@@ -509,7 +398,6 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 34px;
     align-items: center;
     text-align: center;
     color: #F4DED3;
@@ -535,7 +423,6 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
-    line-height: 48px;
     align-items: center;
     text-align: center;
     color: #B1E4D7;
@@ -560,7 +447,6 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 34px;
     align-items: center;
     text-align: center;
     color: #F4DED3;
@@ -580,123 +466,6 @@ header {
 
 /*section expériences*/
 
-.barre_centrale {
-    position: absolute;
-    height: 5px;
-    width: 610px;
-    top: 55%;
-    left: 32%;
-    border: 8px solid #F4DED3;
-    background-color: #F4DED3;
-    border-radius: 30px;
-    box-shadow: 4px 4px 4px #FFFFFF;
-    transform: rotate(90deg);
-}
-
-.etoile_blanche {
-    position: absolute;
-    width: 200px;
-    top: 15%;
-    left: 25%;
-
-}
-
-.triangle_1 {
-    position: absolute;
-    height: 0;
-    width: 0;
-    right: 48.5%;
-    top: 30%;
-    border-left: 25px solid transparent;
-    border-bottom: 45px solid #F4DED3;
-    border-right: 25px solid transparent;
-    transform: rotate(90deg);
-}
-
-.trait_1 {
-    position: absolute;
-    width: 260px;
-    top: 31.5%;
-    right: 31.5%;
-    border: 3px solid #F4DED3;
-    border-radius: 30px;
-}
-
-.triangle_2 {
-    position: absolute;
-    height: 0;
-    width: 0;
-    left: 44%;
-    top: 45%;
-    border-left: 25px solid transparent;
-    border-bottom: 45px solid #F4DED3;
-    border-right: 25px solid transparent;
-    transform: rotate(-90deg);
-}
-
-.trait_2 {
-    position: absolute;
-    width: 150px;
-    top: 48%;
-    left: 32.5%;
-    border: 3px solid #F4DED3;
-    border-radius: 30px;
-}
-
-.triangle_3 {
-    position: absolute;
-    height: 0;
-    width: 0;
-    right: 48.5%;
-    top: 60%;
-    border-left: 25px solid transparent;
-    border-bottom: 45px solid #F4DED3;
-    border-right: 25px solid transparent;
-    transform: rotate(90deg);
-}
-
-.trait_3 {
-    position: absolute;
-    width: 200px;
-    top: 62%;
-    right: 35.5%;
-    border: 3px solid #F4DED3;
-    border-radius: 30px;
-}
-
-.triangle_4 {
-    position: absolute;
-    height: 0;
-    width: 0;
-    left: 44%;
-    top: 75%;
-    border-left: 25px solid transparent;
-    border-bottom: 45px solid #F4DED3;
-    border-right: 25px solid transparent;
-    transform: rotate(-90deg);
-}
-
-.trait_4 {
-    position: absolute;
-    width: 200px;
-    top: 78%;
-    left: 30%;
-    border: 3px solid #F4DED3;
-    border-radius: 30px;
-}
-
-.img_1 {
-    position: absolute;
-    right: 0;
-}
-
-.img_2 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transform: rotate(180deg);
-}
-
 #experiences {
     position: relative;
     height: 100vh;
@@ -706,13 +475,11 @@ header {
 
 .mes_experiences {
     position: absolute;
-    left: 30%;
+    left: 25%;
     top: 5%;
     font-family: 'Redressed';
     font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 84px;
+    font-size: 4rem;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
@@ -721,74 +488,103 @@ header {
 
 .professionnels {
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 10%;
     font-family: 'Rokkitt';
     font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 82px;
-    display: flex;
+    font-size: 4rem;
     align-items: center;
     text-align: center;
     color: #F4DED3;
     text-shadow: 0px 4px 4px #C0564B;
 }
 
-.post_1 {
-    position: absolute;
-    left: 53%;
+.timeline-block {
+    position: relative;
+}
+
+.timeline {
+    padding: 17% 10%;
+    height: 100vh;
+    position: relative;
+}
+.timeline:before {
+    content: " ";
     top: 25%;
-    font-family: 'Reenie Beanie';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 64px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+    bottom: 15%;
+    position: absolute;
+    width: 5px;
+    background-color: #F4DED3;
+    left: 50%;
+    margin-left: -2.5px;
+}
+.timeline > li {
+    position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
 }
 
-.post_2 {
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+.timeline-panel {
+    width: 100%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(244,222,211, 0.175);
+    background-color: #fff;
+}
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+.timeline-panel:after {
     position: absolute;
-    left: 32%;
-    top: 42%;
-    font-family: 'Redressed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-heading h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #B1E4D7;
+}
+.timeline-heading h4 {
+    color: #F4DED3;
 }
 
-.post_3 {
-    position: absolute;
-    left: 53%;
-    top: 56.5%;
-    font-family: 'Redressed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+.timeline-heading p {
+    color: #B1E4D7;
 }
 
-.post_4 {
-    position: absolute;
-    left: 28%;
-    top: 72%;
-    font-family: 'Reenie Beanie';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 64px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+.timeline-body p {
+    color: #F4DED3;
 }
 
 /* Compétences et Qualités*/
@@ -799,34 +595,19 @@ header {
     height: 100vh;
 }
 
-.ligne_pointilles {
-    position: absolute;
-    width: 500px;
-    left: 37.5%;
-    top: 70%;
-    border: 3px dashed #F4DED3;
-    transform: rotate(90deg);
-}
-
 .ligne_horizontal_1 {
     position: absolute;
-    width: 800px;
-    bottom: 2%;
-    left: 30%;
-    border: 4px solid #B1E4D7;
-    border-radius: 30px;
-    box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5); 
+    width: 12%;
+    top: 20%;
+    left: 45%;
 }
 
 .competences {
     position: absolute;
-    left: 30%;
-    top: 5%;
+    left: 23%;
+    top: 4%;
     font-family: 'Reenie Beanie';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 5rem;
     align-items: center;
     text-align: center;
     color: #F4DED3;
@@ -834,28 +615,20 @@ header {
 
 .et {
     position: absolute;
-    left: 52%;
-    top: 10%;
+    left: 50%;
+    top: 8%;
     font-family: 'Reenie Beanie';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 96px;
-    align-items: center;
+    font-size: 5rem;
     text-align: center;
     color: #B1E4D7;
 }
 
 .qualites {
     position: absolute;
-    left: 55%;
-    top: 15%;
+    left: 60%;
+    top: 10%;
     font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 88px;
-    align-items: center;
+    font-size: 4rem;
     text-align: center;
     color: #F4DED3;
 }
@@ -863,37 +636,27 @@ header {
 .les_competences {
     position: absolute;
     left: 20%;
-    top: 48%;
+    top: 40%;
     font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    line-height: 80px;
 }
 
 .les_qualites {
     position: absolute;
     left: 55%;
-    top: 50%;
+    top: 43%;
     font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    line-height: 80px;
 }
 
-.point_1 {
+.point_1 ::before{
     position: absolute;
-    height: 47px;
-    width: 47px;
+    height: 4%;
+    width: 2%;
     left: 49.5%;
     top: 26.5%;
     border-radius: 50%;
@@ -901,22 +664,11 @@ header {
     box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5);
 }
 
-.point_2 {
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    left: 50.05%;
-    top: 27.5%;
-    border-radius: 50%;
-    background: #B1E4D7;
-    box-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5);
-}
-
 .lignes_fine_carre {
     position: absolute;
-    width: 603px;
+    width: 30%;
     left: 8%;
-    top: 28%;
+    top: 26%;
     border-radius: 15px;
     border: 5px solid #F4DED3;
     background: #F4DED3;
@@ -925,9 +677,9 @@ header {
 
 .lignes_fine_carre_2 {
     position: absolute;
-    width: 603px;
+    width: 30%;
     right: 8%;
-    top: 28%;
+    top: 26%;
     border-radius: 15px;
     border: 5px solid #F4DED3;
     background: #F4DED3;
@@ -935,12 +687,11 @@ header {
 }
 
 .carre_ligne {
-    height: 76px;
+    height: 7%;
     width: 100vw;
-    top: 195px;
+    top: 23%;
     border-radius: 0px;
     position: absolute;
-    top: 25%;
     background: #B1E4D7;
     border: 4px solid #F4DED3;
     box-sizing: border-box;
@@ -948,37 +699,29 @@ header {
 
 .html, .js, .mysql, .symphony {
     font-family: Ruda;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 58px;
+    font-size: 3rem;
+    line-height: 200%;
     text-align: center;
 }
 
 .css, .php, .bookstrap {
     font-family: Redressed;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px;
+    font-size: 3rem;
+    line-height: 2rem;
     text-align: center;
 }
 
 .organise, .curieux, .ecoute {
     font-family: Reenie Beanie;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 72px;
+    font-size: 5rem;
+    line-height: 100%;
     text-align: center;
 }
 
 .rigoureux, .partage {
     font-family: Ruda;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 58px;
+    font-size: 3rem;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -992,15 +735,12 @@ header {
 
 .contacts {
     position: absolute;
-    height: 115px;
-    width: 299px;
-    left: 43%;
+    width: 10%;
+    left: 45%;
     top: 5%;
     border-radius: 10px;
-    font-size: 96px;
+    font-size: 600%;
     font-style: normal;
-    font-weight: 500;
-    line-height: 96px;
     text-align: center;
     font-family: 'Reenie Beanie';
     align-items: center;
@@ -1012,23 +752,22 @@ header {
     position: absolute;
     font-family: 'Ruda';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-weight: 400%;
+    font-size: 150%;
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
     color: #B1E4D7;
-    height: 70px;
-    width: 364px;
+    height: 10%;
+    width: 150%;
     top: 70%;
-    left: -15%;
+    left: -25%;
 }
 
 .cercle_tel {
     position: absolute;
-    height: 340px;
-    width: 340px;
+    height: 40%;
+    width: 20%;
     left: 25%;
     top: 15%;
     border-radius: 50%;
@@ -1038,7 +777,7 @@ header {
 
 .tel_svg {
     position: absolute;
-    width: 100px;
+    width: 35%;
     left: 30%;
     top: 20%;
 }
@@ -1047,19 +786,18 @@ header {
     position:absolute;
     font-family: 'Ruda';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-weight: 400%;
+    font-size: 150%;
     text-align: center;
     color: #F4DED3;
     top: 60%;
-    left: 5%;
+    left: 25%;
 }
 
 .cercle_email {
     position: absolute;
-    height: 340px;
-    width: 340px;
+    height: 40%;
+    width: 20%;
     left: 60%;
     top: 15%;
     border-radius: 50%;
@@ -1069,7 +807,7 @@ header {
 
 .e_mail_svg {
     position: absolute;
-    width: 100px;
+    width: 40%;
     left: 32%;
     top: 18%;
 }
@@ -1078,8 +816,8 @@ header {
     position: absolute;
     border: 30px solid #B1E4D7;
     box-sizing: border-box;
-    height: 277px;
-    width: 277px;
+    height: 30%;
+    width: 15%;
     left: 10%;
     top: 45%;
     border-radius: 50%;
@@ -1087,8 +825,8 @@ header {
 
 .cercle_link {
     position: absolute;
-    height: 277px;
-    width: 277px;
+    height: 30%;
+    width: 15%;
     left: 80%;
     top: 45%;
     border-radius: 50%;
@@ -1099,21 +837,16 @@ header {
 .linkedin {
     position: absolute;
     width: 50%;
-    left: 3%;
-}
-
-.linkedin {
-    position: absolute;
-    width: 100px;
     left: 25%;
     top: 23%;
 }
 
+
 .cercle_github .github {
     position: absolute;
-    width: 100px;
-    left: 25%;
-    top: 25%;
+    width: 70%;
+    left: 15%;
+    top: 15%;
 }
 
 .etoile_1_1 {
@@ -1139,10 +872,12 @@ header {
 
 .bas_de_page {
     position: absolute;
-    height: 100px;
+    height: 10%;
     width: 100vw;
     bottom: 0;
     background: #B1E4D7;
 }
 
 /* médiaqueries */
+
+/* phone */
