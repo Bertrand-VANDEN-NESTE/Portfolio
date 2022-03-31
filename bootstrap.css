@@ -62,7 +62,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: none; /*changement du bookstrap*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -7749,7 +7749,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #6c757d; /* modification */
 }
 
 .text-black-50 {
