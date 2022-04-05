@@ -1,17 +1,87 @@
-<!-- Quatrième page -->
-<section id="experiences">
-            <h2 class="mes_experiences">Expériences</h2>
-            <h2 class="professionnels">Professionnels</h2>
-            <p class="post_1">Chef de groupe<br> service chimie</p>
-            <p class="post_2">Assitant<br> technique</p>
-            <p class="post_3">Technicien <br>de laboratoire</p>
-            <p class="post_4">Assistant<br> administratif</p>
-            <img class="barre_centrale" src="img/Group 1.svg" alt="barre centrale">
-            <div class="trait_1"></div>
-            <div class="trait_2"></div>
-            <div class="trait_3"></div>
-            <div class="trait_4"></div>
-            <img class="etoile_blanche" src="img/Capture d’écran 2022-03-28 à 14.39.15.png" alt="étoile blanche">
-            <img class="img_1" src="img/Capture d’écran 2022-03-28 à 10.43.22.png">
-            <img class="img_2" src="img/Capture d’écran 2022-03-28 à 10.43.22.png">
-        </section>
+ <!-- Quatrième page -->
+ <section id="experiences">
+                <img class="etoile" src="img/etoile_blanche.png" alt="étoile blanche">
+                <img class="cercle1" src="img/cercleblanc1.png" alt="cercle blanc">
+                <img class="cercle2" src="img/cercleblanc1.png" alt="cercle blanc">
+                <div class="container">
+                    <div class="heading">
+                        <h2 class="mes_experiences">Expériences</h2>
+                        <h2 class="professionnels">Professionnels</h2>
+                    </div>
+                    <div class="timeline-block">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-badge">
+                                    <span class="bi-briefcase-fill"></span></div>
+                                <div class="timeline-panel-container">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3>EUROFINS LEA</h3>
+                                            <h4>Chef de groupe</h4>
+                                            <p class="text-muted">
+                                                <span class="bi-clock-fill"></span>
+                                                2019 - Juin 2021</p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Management d'équipe</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge">
+                                    <span class="bi-briefcase-fill"></span></div>
+                                <div class="timeline-panel-container-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3>EUROFINS LEA</h3>
+                                            <h4>Assitant technique</h4>
+                                            <p class="text-muted">
+                                                <span class="bi-clock-fill"></span>
+                                                2016-2019</p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Réalisation d'analyses physico-chimique</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge">
+                                    <span class="bi-briefcase-fill"></span></div>
+                                <div class="timeline-panel-container">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3>EUROFINS LEA</h3>
+                                            <h4>Technicien de laboratoire</h4>
+                                            <p class="text-muted">
+                                                <span class="bi-clock-fill"></span>
+                                                2014-2016</p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Réalisation d'analyses physico-chimique</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge">
+                                    <span class="bi-briefcase-fill"></span></div>
+                                <div class="timeline-panel-container-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3>SMICTOM</h3>
+                                            <h4>Adjoint administratif</h4>
+                                            <p class="text-muted">
+                                                <span class="bi-clock-fill"></span>
+                                                2012 (2 mois)</p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Cartographie des déchetteries d'une région</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>

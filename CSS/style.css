@@ -1,3 +1,4 @@
+/* RESET DES PARAMETRES CSS */
 */
 
 html, body, div, span, applet, object, iframe,
@@ -21,10 +22,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 }
@@ -44,72 +42,46 @@ table {
 	border-spacing: 0;
 }
 
-/* RESET DES PARAMETRES CSS */
+/* Premier page*/
 
 header {
     width: 100vw;
     height: 100vh;
 }
 
+/* portrait*/
 .cercle_nav {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     border-radius: 50% 0% 50% 50%;
-    width: 10rem;
+    width: 10%;
     height: auto;
-    padding-top: 10rem;
+    padding-top: 10%;
     background-color: #F4DED3;
 }
 
-.self {
+.block_image_logos {
+    translate: 50% 50%;
     position: relative;
+    height: 100vh;
+}
+
+.self {
+  /*   width: 480px;
+    position: relative; */
     border-radius: 50%;
     border: 15px solid #F4DED3;
-    margin-top: 5rem;
+   /*  top: 15%;
+    left: 10%; */
 }
 
-.logo_css, .logo_figma, .logo_symphony, .logo_bookstrap , .logo_javascript, .logo_html, .logo_php, .logo_code {
-    width: 3%;
-    position: absolute;
-}
+/*Texte d'accroche*/
 
-.logo_css {
-    left: 12%;
-    top: 35%;
-}
-.logo_figma {
-    left: 13%;
-    bottom: 35%;
-}
-.logo_symphony {
-    left: 39%;
-    top: 10%;
-}
-.logo_bookstrap {
-    left: 43%;
-    bottom: 35%;
-}
-.logo_javascript {
-    left: 18%;
-    bottom: 19%;
-}
-.logo_html {
-    left: 17%;
-    top: 9%;
-}
-.logo_php {
-    left: 44%;
-    top: 35%;
-}
-.logo_code {
-    left: 36%;
-    bottom: 18%;
-}
 .text_accroche_h {
-    position: absolute;
+    /* position: absolute;
     left: 55%;
-    top: 30%;
+    top: 30%; */
     font-family: 'Redressed';
     font-size: 4rem;
     color: #B1E4D7;
@@ -117,9 +89,9 @@ header {
 }
 
 .text_accroche_b {
-    position: absolute;
+   /*  position: absolute;
     left: 55%;
-    top: 42%;
+    top: 42%; */
     font-family: 'Ruda';
     font-style: Bold;
     font-size: 3rem;
@@ -128,22 +100,24 @@ header {
 }
 
 .text_accroche_d {
-    position: absolute;
+    /* position: absolute;
     left: 55%;
-    top: 50%;
+    top: 50%; */
     font-family: 'Reenie Beanie';
     font-size: 4rem;
     color: #B1E4D7;
     text-shadow: 0px 4px 4px #F4DED3;
 }
 
+/*bouton*/
+
 #btn_cv {
-    position: absolute;
+    /* position: absolute;
     left: 60%;
-    top: 70%;
+    top: 70%; */
     background-color: #F4DED3;
     box-shadow: 0px 8px 8px #B1E4D7;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .btn {
@@ -287,7 +261,8 @@ header {
     display: block;
     font-family: 'Ruda';
     font-size: 4rem;
-    margin-left: 30%;
+    margin-left: 35%;
+    text-decoration: underline;
     margin-top: 4rem;
     color: #F4DED3;
 }
@@ -296,7 +271,7 @@ header {
     display: block;
     font-family: 'Redressed';
     font-size: 4rem;
-    margin-left: 45%;
+    margin-left: 50%;
     color: #B1E4D7;
 }
 
@@ -321,26 +296,25 @@ header {
     position: absolute;
     z-index: -1;
     width: 100%;
-    left: -50%;
-    top:-70%;
+    left: -45%;
+    top: -70%;
 }
 
 .mes_diplomes {
     position: absolute;
     left: 35%;
-    top: 5%;
+    top: 10%;
     font-family: 'Redressed';
     font-size: 5rem;
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    text-shadow: 0px 4px 4px rgba(192, 86, 75, 0.5);
 }
 
 .formations {
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 20%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
     align-items: center;
@@ -356,7 +330,6 @@ header {
     border-radius: 15px;
     position: absolute;
     border: 15px solid #B1E4D7;
-    box-sizing: border-box;
 }
 
 .class_1 {
@@ -368,7 +341,7 @@ header {
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    text-shadow: 1px 1px 1px #C0564B;
+    text-shadow: 1px 1px 1px #F4DED3;
 }
 
 .class_1_1_1 {
@@ -379,7 +352,6 @@ header {
     border-radius: 20px;
     border: 16px solid #F4DED3;
     transform: rotate(180deg);
-    box-sizing: border-box;
 }
 
 .class_2 {
@@ -401,7 +373,6 @@ header {
     border-radius: 20px;
     border: 16px solid #F4DED3;
     transform: rotate(180deg);
-    box-sizing: border-box;
 }
 
 .class_3 {
@@ -413,7 +384,7 @@ header {
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    text-shadow: 1px 1px 1px #C0564B;
+    text-shadow: 1px 1px 1px #F4DED3;
 }
 
 .class_1_1_3 {
@@ -424,7 +395,6 @@ header {
     border-radius: 20px;
     border: 16px solid #F4DED3;
     transform: rotate(180deg);
-    box-sizing: border-box;
 }
 
 .class_4 {
@@ -446,19 +416,19 @@ header {
     border-radius: 20px;
     border: 16px solid #F4DED3;
     transform: rotate(180deg);
-    box-sizing: border-box;
+
 }
 
 .class_5 {
     position: absolute;
-    left: 72%;
+    left: 74%;
     top: 43%;
     font-family: 'Ruda';
     font-size: 1.8rem;
     align-items: center;
     text-align: center;
     color: #F4DED3;
-    text-shadow: 1px 1px 1px #C0564B;
+    text-shadow: 1px 1px 1px #F4DED3;
 }
 
 .class_1_1_5 {
@@ -469,7 +439,6 @@ header {
     border-radius: 20px;
     border: 16px solid #F4DED3;
     transform: rotate(180deg);
-    box-sizing: border-box;
 }
 
 /*section expériences*/
@@ -479,6 +448,46 @@ header {
     height: 100vh;
     width: 100vw;
     background: #B1E4D7;
+}
+
+/* animations */
+
+.glowing {
+    position: relative;
+    width:750px;
+    height: 750px;
+}
+
+.glowing span {
+    position: absolute;
+    top: calc(80px * var(--i));
+    left: calc(80px * var(--i));
+    bottom: calc(80px * var(--i));
+    right: calc(80px * var(--i));
+}
+
+/* fin de l'animation */
+
+.etoile {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    width: 10%;
+}
+
+.cercle1 {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    right: 0;
+}
+
+.cercle2 {
+    position: absolute;
+    width: 10%;
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg);
 }
 
 .mes_experiences {
@@ -622,8 +631,8 @@ header {
 
 .competences {
     position: absolute;
-    left: 23%;
-    top: 4%;
+    left: 15%;
+    top: 5%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
     align-items: center;
@@ -633,7 +642,7 @@ header {
 .et {
     position: absolute;
     left: 50%;
-    top: 8%;
+    top: 5%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
     color: #B1E4D7;
@@ -641,8 +650,8 @@ header {
 
 .qualites {
     position: absolute;
-    left: 60%;
-    top: 10%;
+    left: 70%;
+    top: 7%;
     font-family: 'Ruda';
     font-size: 4rem;
     text-align: center;
@@ -703,7 +712,7 @@ header {
 .cercle_1 {
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 49.5%;
     border-radius: 50%;
     width: 2.5rem;
     height: auto;
@@ -909,7 +918,3 @@ header {
     bottom: 0;
     background: #B1E4D7;
 }
-
-/* médiaqueries */
-
-/* phone */
