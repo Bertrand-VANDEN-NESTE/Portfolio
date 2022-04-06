@@ -1,8 +1,8 @@
-<!-- troisième page -->
+
 <!-- troisième page -->
 <section id="diplomes">
                 <h2 class="mes_diplomes">Diplômes<img
-                    src="img/Capture_d_écran_2022-03-28_à_09.04.54-removebg-preview (1).png"
+                    src="img/etoilevertepetite.png"
                     alt="étoile"></h2>
                 <h4 class="formations">Formations</h4>
                 <div class="ligne_p"></div>

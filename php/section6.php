@@ -20,13 +20,13 @@
                     </div>
                     <div class="etoile_1"><img
                         class="etoile_1_1"
-                        src="img/Capture_d_écran_2022-03-25_à_09.48.56-removebg-preview.png"></div>
+                        src="img/etoilerosegrande.png"></div>
                     <div class="etoile_2"><img
                         class="etoile_2_1"
-                        src="img/Capture_d_écran_2022-03-25_à_10.37.38-removebg-preview.png"></div>
+                        src="img/etoilevertegrande.png"></div>
                     <div class="etoile_3"><img
                         class="etoile_3_1"
-                        src="img/Capture_d_écran_2022-03-25_à_09.48.56-removebg-preview.png"></div>
+                        src="img/etoilerosegrande.png"></div>
                     <div class="bas_de_page"></div>
                 </section>
             </footer>

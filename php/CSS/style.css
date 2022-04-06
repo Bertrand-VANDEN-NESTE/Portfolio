@@ -50,38 +50,21 @@ header {
 }
 
 /* portrait*/
-.cercle_nav {
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    border-radius: 50% 0% 50% 50%;
-    width: 10%;
-    height: auto;
-    padding-top: 10%;
-    background-color: #F4DED3;
-}
-
-.block_image_logos {
-    translate: 50% 50%;
-    position: relative;
-    height: 100vh;
-}
 
 .self {
-  /*   width: 480px;
-    position: relative; */
+    margin-top: 2%;
     border-radius: 50%;
     border: 15px solid #F4DED3;
-   /*  top: 15%;
-    left: 10%; */
 }
 
 /*Texte d'accroche*/
 
+#text_accroche {
+    padding-top: 30%;
+    padding-left: 5%;
+}
+
 .text_accroche_h {
-    /* position: absolute;
-    left: 55%;
-    top: 30%; */
     font-family: 'Redressed';
     font-size: 4rem;
     color: #B1E4D7;
@@ -89,9 +72,6 @@ header {
 }
 
 .text_accroche_b {
-   /*  position: absolute;
-    left: 55%;
-    top: 42%; */
     font-family: 'Ruda';
     font-style: Bold;
     font-size: 3rem;
@@ -100,9 +80,6 @@ header {
 }
 
 .text_accroche_d {
-    /* position: absolute;
-    left: 55%;
-    top: 50%; */
     font-family: 'Reenie Beanie';
     font-size: 4rem;
     color: #B1E4D7;
@@ -112,9 +89,9 @@ header {
 /*bouton*/
 
 #btn_cv {
-    /* position: absolute;
-    left: 60%;
-    top: 70%; */
+    width: 25vw;
+    margin-top: 10%;
+    margin-right: 20%;
     background-color: #F4DED3;
     box-shadow: 0px 8px 8px #B1E4D7;
     border-radius: 30px;
