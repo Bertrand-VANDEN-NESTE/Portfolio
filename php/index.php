@@ -1,10 +1,11 @@
 
 <?php
 include('head.php');
-include('section1.php');
-include('section2.php');
-include('section3.php');
-include('section4.php');
-include('section5.php');
-include('section6.php');
+include('firstpage.php');
+include('secondpage.php');
+include('thirdpage.php');
+include('fourthpage.php');
+include('fifthpage.php');
+include('sixthpage.php');
+include('seventhpage.php');
 ?>

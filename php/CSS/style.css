@@ -17,15 +17,9 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -37,69 +31,85 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-/* Premier page*/
+/*-------------------------------------------- application general------------------------------------------------------------*/
 
-header {
+#front_back .container, #projets .container, #diplomes .container, #competences_qualites .container, #contact .container{
+    position: relative;
     width: 100vw;
     height: 100vh;
 }
 
-/* portrait*/
+.main {
+    width: 100vw;
+}
 
+:root{
+    --color-pink: #F4DED3;
+    --color-green: #B1E4D7;
+    --color-red: #C0564B80;
+    --font-redressed: 'Redressed';
+    --font-Reenie-Beanie: 'Reenie Beanie';
+    --font-Ruda: 'Ruda';
+    --font-Rokkitt: 'Rokkitt';
+}
+
+.self, .carre_ligne, .glowing, .timeline-panel {
+    position: relative;
+}
+
+.front_block, .mes_diplomes img, .mes_diplomes, .formations, .ligne_p, .class_1, .class_2, .class_3, .class_4, .class_5, .class_1_1_1, .class_1_1_2, .class_1_1_3, .class_1_1_4, .class_1_1_5, .glowing span, .etoile, .cercle1, .cercle2, .mes_experiences, .professionnels, .timeline:before, .timeline-panel:after, .ligne_horizontal_1, .competences, .les_competences, .qualites, .les_qualites, .et, .cercle1, .cercle2, .lignes_fine_carre, .lignes_fine_carre_2, .lignes_fine_carre_3, .lignes_fine_carre_4, .lignes_fine_carre_5, .contacts ,.back_block, .cercle_tel, .tel_svg, .cercle_email, .e_mail_svg, .cercle_github, .cercle_link, .linkedin, .cercle_github .github, .etoile_1_1, .etoile_1_1, .etoile_2_1, .etoile_3_1, #contact .container-fluid {
+    position: absolute;
+}
+
+/*---------------------------------------------------première page----------------------------------------------------*/
+
+/* portrait*/
+.portrait{
+    margin-top: 10%;
+}
 .self {
-    margin-top: 2%;
+    top: 50%;
+    left: 50%;
     border-radius: 50%;
-    border: 15px solid #F4DED3;
+    border: 15px solid var(--color-pink);
+    transform: translate(-50%);
 }
 
 /*Texte d'accroche*/
 
 #text_accroche {
-    padding-top: 30%;
-    padding-left: 5%;
+    padding-top: 25%;
+    padding-left: 10%;
 }
 
 .text_accroche_h {
     font-family: 'Redressed';
     font-size: 4rem;
-    color: #B1E4D7;
-    text-shadow: 0px 4px 4px #F4DED3;
+    color: var(--color-green);
+    text-shadow: 0px 4px 4px var(--color-pink);
 }
 
 .text_accroche_b {
     font-family: 'Ruda';
     font-style: Bold;
     font-size: 3rem;
-    color: #B1E4D7;
-    text-shadow: 0px 4px 4px #F4DED3;
+    color: var(--color-green);
+    text-shadow: 0px 4px 4px var(--color-pink);
 }
 
 .text_accroche_d {
     font-family: 'Reenie Beanie';
     font-size: 4rem;
-    color: #B1E4D7;
-    text-shadow: 0px 4px 4px #F4DED3;
+    color: var(--color-green);
+    text-shadow: 0px 4px 4px var(--color-pink);
 }
 
 /*bouton*/
 
-#btn_cv {
-    width: 25vw;
-    margin-top: 10%;
-    margin-right: 20%;
-    background-color: #F4DED3;
-    box-shadow: 0px 8px 8px #B1E4D7;
-    border-radius: 30px;
-}
-
 .btn {
-    background-color: #F4DED3;
-    border-color: #F4DED3 !important;
+    background-color: var(--color-pink);
+    border-color: var(--color-pink) !important;
     font-family: 'Reenie Beanie';
     font-size: 2rem;;
     color: #fff;
@@ -107,8 +117,8 @@ header {
 
 .btn:hover {
     font-style: 'Reenie Beanie';
-    background-color: #F4DED3;
-    border-color: #F4DED3;
+    background-color: var(--color-pink);
+    border-color: var(--color-pink);
     box-shadow: none;
     color: #FFFFFF;
 }
@@ -116,22 +126,16 @@ header {
 .btn:focus {
     box-shadow: none;
 }
-/* deuxième page */
 
-#front_back {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
+/* ---------------------------------------------------- 2ème page ---------------------------------------------------*/
 
 .front_block {
     height: 60vh;
     width: 25vw;
-    position: absolute;
     left: 20%;
     top: 20%;
     background: rgba(177, 228, 215, 1);
-    box-shadow: 15px 15px 15px #F4DED3;
+    box-shadow: 15px 15px 15px var(--color-pink);
     border-radius: 10px;
 }
 
@@ -148,8 +152,8 @@ header {
     font-family: 'Ruda';
     font-size: 3rem;
     text-align: center;
-    color: #F4DED3;
-    text-shadow: 2px 2px 2px #C0564B;
+    color: var(--color-pink);
+    text-shadow: 2px 2px 2px var(--color-red);
 }
 
 .front_back_s {
@@ -160,7 +164,7 @@ header {
     display: block;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 2px 6px rgba(192, 86, 75, 0.5);
+    text-shadow: 0px 2px 6px var(--color-red);
 }
 
 .front_back_e {
@@ -171,17 +175,16 @@ header {
     display: block;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 2px 6px rgba(192, 86, 75, 0.5);
+    text-shadow: 0px 2px 6px var(--color-red);
 }
 
 .back_block {
     height: 60vh;
     width: 25vw;
-    position: absolute;
     right: 20%;
     top: 20%;
     background: rgba(177, 228, 215, 1);
-    box-shadow: 15px 15px 15px #F4DED3;
+    box-shadow: 15px 15px 15px var(--color-pink);
     border-radius: 10px;
 }
 
@@ -201,7 +204,7 @@ header {
     padding-top: 16%;
     text-align: center;
     color: #F4DED3;
-    text-shadow: 2px 2px 2px #C0564B;
+    text-shadow: 2px 2px 2px var(--color-red);
 }
 
 .front_back_si {
@@ -212,7 +215,7 @@ header {
     display: block;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 2px 6px rgba(192, 86, 75, 0.5);
+    text-shadow: 0px 2px 6px var(--color-red);
 }
 
 .front_back_ba {
@@ -223,16 +226,10 @@ header {
     display: block;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 2px 6px rgba(192, 86, 75, 0.5);
+    text-shadow: 0px 2px 6px var(--color-red);
 }
 
-/*3ème page projets dev*/
-
-#projets {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
+/*-----------------------------------------------------3ème page----------------------------------------------------------*/
 
 .portfolio {
     display: block;
@@ -241,7 +238,7 @@ header {
     margin-left: 35%;
     text-decoration: underline;
     margin-top: 4rem;
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
 .mes_projets {
@@ -249,7 +246,7 @@ header {
     font-family: 'Redressed';
     font-size: 4rem;
     margin-left: 50%;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .projet_image {
@@ -258,19 +255,12 @@ header {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    border: 15px solid #F4DED3;
+    border: 15px solid var(--color-pink);
 }
 
-/* Diplômes formations*/
-
-#diplomes {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-}
+/*-------------------------------------------------4ème page-----------------------------------------------------------*/
 
 .mes_diplomes img {
-    position: absolute;
     z-index: -1;
     width: 100%;
     left: -45%;
@@ -278,25 +268,23 @@ header {
 }
 
 .mes_diplomes {
-    position: absolute;
     left: 35%;
     top: 10%;
     font-family: 'Redressed';
     font-size: 5rem;
     align-items: center;
     text-align: center;
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
 .formations {
-    position: absolute;
     left: 50%;
     top: 20%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
     align-items: center;
     text-align: center;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .ligne_p {
@@ -305,138 +293,118 @@ header {
     left: 10%;
     top: 60%;
     border-radius: 15px;
-    position: absolute;
-    border: 15px solid #B1E4D7;
+    border: 15px solid var(--color-green);
 }
 
 .class_1 {
-    position: absolute;
     left: 14%;
     top: 50%;
     font-family: 'Ruda';
     font-size: 1.8rem;
     align-items: center;
     text-align: center;
-    color: #F4DED3;
-    text-shadow: 1px 1px 1px #F4DED3;
+    color: var(--color-pink);
+    text-shadow: 1px 1px 1px var(--color-pink);
 }
 
 .class_1_1_1 {
-    position: absolute;
     height: 7%;
     top: 55%;
     left: 16%;
     border-radius: 20px;
-    border: 16px solid #F4DED3;
+    border: 16px solid var();
     transform: rotate(180deg);
 }
 
 .class_2 {
-    position: absolute;
     left: 25%;
     top: 70%;
     font-family: 'Reenie Beanie';
     font-size: 2.5rem;
     align-items: center;
     text-align: center;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .class_1_1_2 {
-    position: absolute;
     height: 7%;
     top: 61%;
     left: 30%;
     border-radius: 20px;
-    border: 16px solid #F4DED3;
+    border: 16px solid var(--color-pink);
     transform: rotate(180deg);
 }
 
 .class_3 {
-    position: absolute;
     left: 40%;
     top: 47%;
     font-family: 'Ruda';
     font-size: 1.8rem;
     align-items: center;
     text-align: center;
-    color: #F4DED3;
-    text-shadow: 1px 1px 1px #F4DED3;
+    color: var(--color-pink);
+    text-shadow: 1px 1px 1px var(--color-pink);
 }
 
 .class_1_1_3 {
-    position: absolute;
     height: 7%;
     top: 55%;
     left: 45%;
     border-radius: 20px;
-    border: 16px solid #F4DED3;
+    border: 16px solid var(--color-pink);
     transform: rotate(180deg);
 }
 
 .class_4 {
-    position: absolute;
     left: 53%;
     top: 70%;
-    font-family: 'Reenie Beanie'; /* */
+    font-family: 'Reenie Beanie';
     font-size: 48px;
     align-items: center;
     text-align: center;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .class_1_1_4 {
-    position: absolute;
     height: 7%;
     top: 61%;
     left: 62%;
     border-radius: 20px;
-    border: 16px solid #F4DED3;
+    border: 16px solid var(--color-pink);
     transform: rotate(180deg);
 
 }
 
 .class_5 {
-    position: absolute;
     left: 74%;
     top: 43%;
     font-family: 'Ruda';
     font-size: 1.8rem;
     align-items: center;
     text-align: center;
-    color: #F4DED3;
-    text-shadow: 1px 1px 1px #F4DED3;
+    color: var(--color-pink);
+    text-shadow: 1px 1px 1px var(--color-pink);
 }
 
 .class_1_1_5 {
-    position: absolute;
     height: 7%;
     top: 55%;
     left: 80%;
     border-radius: 20px;
-    border: 16px solid #F4DED3;
+    border: 16px solid var(--color-pink);
     transform: rotate(180deg);
 }
 
-/*section expériences*/
-
-#experiences {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background: #B1E4D7;
-}
+/*----------------------------------------------------5ème page-------------------------------------------------------------*/
 
 /* animations */
 
 .glowing {
-    position: relative;
     width:750px;
     height: 750px;
 }
 
 .glowing span {
-    position: absolute;
     top: calc(80px * var(--i));
     left: calc(80px * var(--i));
     bottom: calc(80px * var(--i));
@@ -446,21 +414,18 @@ header {
 /* fin de l'animation */
 
 .etoile {
-    position: absolute;
     left: 5%;
     top: 8%;
     width: 10%;
 }
 
 .cercle1 {
-    position: absolute;
     width: 10%;
     top: 0;
     right: 0;
 }
 
 .cercle2 {
-    position: absolute;
     width: 10%;
     bottom: 0;
     left: 0;
@@ -468,7 +433,6 @@ header {
 }
 
 .mes_experiences {
-    position: absolute;
     left: 25%;
     top: 2%;
     font-family: 'Redressed';
@@ -476,48 +440,48 @@ header {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px #C0564B;
+    text-shadow: 0px 4px 4px var(--color-red);
 }
 
 .professionnels {
-    position: absolute;
     right: 20%;
     top: 8%;
     font-family: 'Rokkitt';
     font-size: 4rem;
     align-items: center;
     text-align: center;
-    color: #F4DED3;
-    text-shadow: 0px 4px 4px #C0564B;
+    color: var(--color-pink);
+    text-shadow: 0px 4px 4px var(--color-red);
 }
 
-.timeline-block {
-    position: relative;
+.heading {
+    height: 20vh;
 }
 
-.timeline {
-    padding: 10rem 5rem;
-    height: 75vh;
-    position: relative;
+.timeline-block{
+    width: auto;
+    height: 80vh;
+}
+.timeline { 
+    height: 80vh;
+    align-items: center;
 }
 .timeline:before {
     content: " ";
     top: 17%;
     bottom: 18%;
-    position: absolute;
     border-radius: 30px;
     width: 5px;
-    background-color: #F4DED3;
+    background-color: var(--color-pink);
     left: 50%;
     margin-left: -2.5px;
 }
-.timeline > li {
-    position: relative;
-}
+
 .timeline > li:before,
 .timeline > li:after {
     content: " ";
     display: table;
+
 }
 .timeline > li:after {
     clear: both;
@@ -533,22 +497,18 @@ header {
 }
 .timeline-panel {
     width: 80%;
-    height: 19%;
     float: right;
     margin-right: 40px;
     border: 1px solid #fff;
     border-radius: 25px;
-    padding: 0.7rem 2rem;
-    position: relative;
     box-shadow: 0 2px 6px rgba(244,222,211, 0.175);
     background-color: #fff;
 }
 .timeline-panel-container-inverted .timeline-panel {
     float: left;
-    margin-left: 40px;
+    
 }
 .timeline-panel:after {
-    position: absolute;
     top: 27px;
     right: -14px;
     display: inline-block;
@@ -570,106 +530,93 @@ header {
     margin-top: 2%;
     margin-bottom: 1%;
     font-size: 2rem;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 .timeline-heading h4 {
     text-align: center;
     font-family: 'Redressed';
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
 .timeline-heading p {
     text-align: center;
     font-family: 'Ruda';
     margin-bottom: 1rem;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .timeline-body p {
     text-align: center;
     font-family: 'Ruda';
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
+/*------------------------------------------------------6ème page----------------------------------------------*/
 /* Compétences et Qualités*/
 
-#competences_qualites {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
 .ligne_horizontal_1 {
-    position: absolute;
     width: 12%;
     top: 20%;
     left: 45%;
 }
 
 .competences {
-    position: absolute;
     left: 15%;
     top: 5%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
     align-items: center;
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
 .et {
-    position: absolute;
     left: 50%;
     top: 5%;
     font-family: 'Reenie Beanie';
     font-size: 5rem;
-    color: #B1E4D7;
+    color: var(--color-green);
 }
 
 .qualites {
-    position: absolute;
     left: 70%;
     top: 7%;
     font-family: 'Ruda';
     font-size: 4rem;
     text-align: center;
-    color: #F4DED3;
+    color: var(--color-pink);
 }
 
 .lignes_fine_carre_5 {
-    position: absolute;
     height: 20rem;
     top: 45%;
     left: 50%;
     margin-left: 0;
     margin-top: 0;
-    border: 8px #F4DED3;
+    border: 8px var(--color-pink);
     border-radius: 15px;
     border-style: dashed;
     transform: rotate(180deg);
 }
 
 .lignes_fine_carre_4 {
-    position: absolute;
     width: 15%;
     top: 35%;
     margin-left: 43%;
     border-radius: 15px;
-    border: 5px solid #B1E4D7;
-    background: #B1E4D7;
+    border: 5px solid var(--color-green);
+    background: var(--color-green);
 }
 
 .lignes_fine_carre_3 {
-    position: absolute;
     width: 30%;
     top: 90%;
     margin-left: 35%;
     border-radius: 15px;
-    border: 5px solid #B1E4D7;
-    background: #B1E4D7;
+    border: 5px solid var(--color-green);
+    background: var(--color-green);
 }
 
 .les_competences {
-    position: absolute;
     left: 15%;
     top: 40%;
     font-family: 'Ruda';
@@ -678,7 +625,6 @@ header {
 }
 
 .les_qualites {
-    position: absolute;
     right: 15%;
     top: 43%;
     font-family: 'Ruda';
@@ -687,39 +633,35 @@ header {
 }
 
 .cercle_1 {
-    position: absolute;
     top: 15%;
     left: 49.5%;
     border-radius: 50%;
     width: 2.5rem;
     height: auto;
     padding-top: 2.5rem;
-    background: #F4DED3;
+    background: var(--color-pink);
 }
 
 .cercle_2 {
-    position: absolute;
     top: 20%;
     left: 20%;
     border-radius: 50%;
     width: 1.5rem;
     height: auto;
     padding-top: 1.5rem;
-    background: #B1E4D7;
+    background: var(--color-green);
 }
 
 .lignes_fine_carre {
-    position: absolute;
     width: 30%;
     left: 8%;
     top: 40%;
     border-radius: 15px;
-    border: 5px solid #F4DED3;
-    background: #F4DED3;
+    border: 5px solid var(--color-pink);
+    background: var(--color-pink);
 }
 
 .lignes_fine_carre_2 {
-    position: absolute;
     width: 30%;
     right: 8%;
     top: 40%;
@@ -733,7 +675,6 @@ header {
     width: 100vw;
     top: 23%;
     border-radius: 0px;
-    position: relative;
     background: #B1E4D7;
     border: 4px solid #F4DED3;
     box-sizing: border-box;
@@ -771,16 +712,9 @@ header {
     color: #B1E4D7;
 }
 
-/* Contact*/
-
-#contact {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
+/* ------------------------------------------------------------7ème page------------------------------------------------*/
 
 .contacts {
-    position: absolute;
     width: 10%;
     left: 44%;
     top: 5%;
@@ -795,7 +729,6 @@ header {
 }
 
 .cercle_tel {
-    position: absolute;
     width: 15rem;
     height: auto;
     padding-top: 15rem;
@@ -806,14 +739,12 @@ header {
 }
 
 .tel_svg {
-    position: absolute;
     width: 35%;
     left: 32%;
     top: 32%;
 }
 
 .cercle_email {
-    position: absolute;
     width: 15rem;
     height: auto;
     padding-top: 15rem;
@@ -824,14 +755,12 @@ header {
 }
 
 .e_mail_svg {
-    position: absolute;
     width: 40%;
     left: 30%;
     top: 30%;
 }
 
 .cercle_github {
-    position: absolute;
     border: 30px solid #B1E4D7;
     width: 15rem;
     height: auto;
@@ -842,7 +771,6 @@ header {
 }
 
 .cercle_link {
-    position: absolute;
     width: 15rem;
     height: auto;
     padding-top: 15rem;
@@ -853,7 +781,6 @@ header {
 }
 
 .linkedin {
-    position: absolute;
     width: 50%;
     left: 25%;
     top: 23%;
@@ -861,37 +788,34 @@ header {
 
 
 .cercle_github .github {
-    position: absolute;
     width: 70%;
     left: 15%;
     top: 15%;
 }
 
 .etoile_1_1 {
-    position: absolute;
     width: 10vw;
     left: 10%;
     top: 10%;
 }
 
 .etoile_2_1 {
-    position: absolute;
     width: 10vw;
     left: 45%;
     top: 60%;
 }
 
 .etoile_3_1 {
-    position: absolute;
     width: 10vw;
     right: 10%;
     top: 10%;
 }
 
-.bas_de_page {
-    position: absolute;
+#contact .container-fluid{
+    background: #B1E4D7;
     height: 10%;
     width: 100vw;
     bottom: 0;
-    background: #B1E4D7;
+    left: 0;
 }
+/*-------------------------------------------------the end-------------------------------------------------*/
