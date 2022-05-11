@@ -1,0 +1,10 @@
+$mintc: #B1E4D7;
+$salmon: #F4DED3;
+
+@mixin shadow-button {
+    box-shadow: 0px 8px 15px -9px $mintc;
+}
+
+@mixin shadow-bottom {
+    box-shadow: 15px 15px 15px $salmon;
+}

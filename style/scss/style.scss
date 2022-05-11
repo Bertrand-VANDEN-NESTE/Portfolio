@@ -1,0 +1,104 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$mintc: #B1E4D7;
+$salmon: #F4DED3;
+$theme-colors: (
+    "mintc": $mintc,
+    "salmon": $salmon
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "variable.scss";
+@import "timeline-V.scss";
+@import "timeline.scss";
+
+/* menu */
+.nav-link:hover {
+    color: darken($mintc, 20%) !important;
+}
+
+/* section */
+.bertrand {
+    border: 10px solid $mintc;
+    @include shadow-bottom;
+}
+
+.presentation {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-cv {
+    @include shadow-button;
+    transition: transform .3s;
+
+    &:hover {
+        background-color: darken($salmon, 5%);
+        transform: scale(1.1);
+    }
+}
+
+/* article 1 */
+.logo-article {
+    width: 200px;
+    height: auto;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px #6c6c6c;
+}
+
+.card-article {
+    @include shadow-bottom;
+}
+
+.icons {
+    width: 1Ovw;
+}
+
+.tableau {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tableau-p1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.tableau-p2 {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+article {
+    width: 100vw;
+}
+
+.experiences {
+    text-shadow: 5px 5px 5px #F4DED3;
+}
+
+.barre_horizontale {
+    width: 100vw;
+    height: 5vh;
+    background-color: #B1E4D7;
+    border: solid 10px #F4DED3;
+}
+
+.barre_verticale {
+    border-left: 4px dashed #F4DED3;
+    height: 600px;
+    display: inline-block;
+}
