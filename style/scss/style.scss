@@ -15,6 +15,7 @@ $theme-colors: (
 @import "variable.scss";
 @import "timeline-V.scss";
 @import "timeline.scss";
+@import "orbit.scss";
 
 /* menu */
 .nav-link:hover {
@@ -22,9 +23,17 @@ $theme-colors: (
 }
 
 /* section */
+
+.first_page {
+    height: 100vh !important;
+}
+
+.articles_first {
+    height: 90vh !important;
+}
+
 .bertrand {
     border: 10px solid $mintc;
-    @include shadow-bottom;
 }
 
 .presentation {
@@ -101,4 +110,28 @@ article {
     border-left: 4px dashed #F4DED3;
     height: 600px;
     display: inline-block;
+}
+
+.logo-li:nth-child(1) {
+    transform: translate(15rem, 0rem);
+}
+
+.logo-li:nth-child(2) {
+    transform: translate(12rem, 12rem);
+}
+
+.logo-li:nth-child(3) {
+    transform: translate(0, 15rem);
+}
+
+.logo-li:nth-child(4) {
+    transform: translate(-12rem, 12rem);
+}
+
+.logo-li:nth-child(5) {
+    transform: translate(-15rem, 0rem);
+}
+
+.logo-li:nth-child(6) {
+    transform: translate(0, 15rem);
 }

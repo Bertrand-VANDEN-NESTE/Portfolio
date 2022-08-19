@@ -11,36 +11,58 @@
 
 <body>
     <!--Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-salmon shadow-sm">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-mintc text-shadow fs-5" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-mintc text-shadow fs-5" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-mintc text-shadow fs-5" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-mintc text-shadow fs-5" href="#">Contact</a>
-                    </li>
-                </ul>
+    <section class="first_page">
+        <nav class="navbar navbar-expand-lg navbar-light bg-salmon shadow-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-mintc text-shadow fs-5" href="#lien-home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-mintc text-shadow fs-5" href="#lien-portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-mintc text-shadow fs-5" href="#lien-skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-mintc text-shadow fs-5" href="#lien-contacts">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <section>
-        <article>
-            <div class="row gx-0 mb-5 pt-5">
+        </nav>
+        <article class="articles_first">
+            <div class="row mb-5 pt-5">
                 <div class="col-12 col-md-6 p-5 text-center">
-                    <img class="rounded-circle bertrand img-fluid" src="images/image_profil.png"
-                        alt="photo de profil Bertrand Vanden Neste">
+                    <div class="orbit">
+                        <div class="center-image">
+                            <img class="rounded-circle bertrand img-fluid" src="images/image_profil.png"
+                                alt="photo de profil Bertrand Vanden Neste">
+                        </div>
+                        <!-- <ul class="logos-ul">
+                            <li class="logos-li"><img class="img-logo" src="images/symfony-brands.svg"
+                                    alt="logo-symfony">
+                            </li>
+                            <li class="logos-li"><img class="img-logo" src="images/php-brands.svg" alt="logo-php"></li>
+                            <li class="logos-li"><img class="img-logo" src="images/bootstrap-brands.svg"
+                                    alt="logo-bootstrap"></li>
+                            <li class="logos-li"><img class="img-logo-s" src="images/css3-alt-brands.svg"
+                                    alt="logo-css"></li>
+                            <li class="logos-li"><img class="img-logo-s" src="images/figma-brands.svg" alt="logo-figma">
+                            </li>
+                            <li class="logos-li"><img class="img-logo-s" src="images/html5-brands.svg" alt="logo-html">
+                            </li>
+                            <li class="logos-li"><img class="img-logo-s" src="images/js-brands.svg" alt="logo-html">
+                            </li>
+                            <li class="logos-li"><img class="img-logo-s" src="images/sass-brands.svg" alt="logo-sass">
+                            </li>
+                        </ul> -->
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 p-3">
                     <div class="presentation d-inline-block">
@@ -48,11 +70,13 @@
                         <h1 class="text-mintc">Bertrand VANDEN NESTE</h1>
                         <span class="d-block text-mintc fs-2 mb-3">Développeur Web et Web Mobile</span>
                         <a class="btn btn-salmon fs-5 fw-bold text-white rounded-3 btn-cv"
-                            href="images/CV Bertrand 2022.pdf" target="_blanck">Télécharger mon CV</a>
+                            href="images/CV_Bertrand_VANDEN_NESTE_2022.pdf" target="_blanck">Télécharger mon CV</a>
                     </div>
                 </div>
             </div>
         </article>
+    </section>
+    <section class="second_page">
         <article>
             <div class="row gx-0">
                 <div class="col-12 col-md-6 p-1 p-md-5 text-center text-md-end">
@@ -77,7 +101,7 @@
             <div class="row gx-0">
                 <div class="col-12 col-md-12 text-center">
                     <div class="mt-5 mb-5">
-                        <h2 class="d-block text-salmon fs-2">Portfolio</h2>
+                        <h2 id="lien-portfolio" class="d-block text-salmon lien-portfolio fs-2">Portfolio</h2>
                         <h3 class="d-block text-mintc fs-2">Mes projets</h3>
                     </div>
                     <div class="bg-salmon d-inline-block p-5 rounded-circle text-center card-article">
@@ -88,6 +112,8 @@
                 </div>
             </div>
         </article>
+    </section>
+    <section class="third_page">
         <article>
             <div class="row gx-0">
                 <div class="container pb-5 pt-5">
@@ -150,6 +176,8 @@
                 </div>
             </div>
         </article>
+    </section>
+    <section>
         <article class="bg-mintc">
             <div class="container">
                 <h2 class="experiences text-white fs-2 text-center pt-3">Expériences professionnels
@@ -242,7 +270,7 @@
         </article>
         <article>
             <div class="text-center pt-5 pb-5">
-                <h2 class="text-salmon">Compétences</h2>
+                <h2 id="lien-skills" class="text-salmon">Compétences</h2>
                 <h3 class="text-mintc">&</h3>
                 <h3 class="text-salmon">Qualités</h3>
             </div>
@@ -266,9 +294,11 @@
                 </div>
             </div>
         </article>
+    </section>
+    <section>
         <article class="container">
-            <div class="row pt-5">
-                <h2 class="text-salmon text-center pt-5 pb-5">Contact</h2>
+            <div class="row pt-5 mb-5">
+                <h2 id="lien-contacts" class="text-salmon text-center pt-5 pb-5">Contact</h2>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-6 text-center">
