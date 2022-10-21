@@ -10775,10 +10775,6 @@ textarea.form-control-lg {
     margin-bottom: 10px;
   }
 }
-body {
-  margin-top: 20px;
-}
-
 .timeline-steps {
   display: flex;
   justify-content: center;
@@ -10840,73 +10836,9 @@ body {
   opacity: 0.5;
 }
 
-.orbit {
-  position: relative;
-}
-.orbit .center-image {
-  position: absolute;
-  z-index: 10;
-}
-.orbit ul {
-  position: absolute;
-  place-items: center;
-  list-style: none;
-}
-.orbit li {
-  position: absolute;
-  width: 4rem;
-  left: 20%;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  font-weight: 500;
-}
-.orbit li:nth-child(1) {
-  transform: translate(15rem, 0rem);
-}
-.orbit li:nth-child(2) {
-  transform: translate(10rem, 10rem);
-}
-.orbit li:nth-child(3) {
-  transform: translate(0, 15rem);
-}
-.orbit li:nth-child(4) {
-  transform: translate(-10rem, 10rem);
-}
-.orbit li:nth-child(5) {
-  transform: translate(-15rem, 0rem);
-}
-.orbit li:nth-child(6) {
-  transform: translate(-10rem, -10rem);
-}
-.orbit li:nth-child(7) {
-  transform: translate(0, -15rem);
-}
-.orbit li:nth-child(8) {
-  transform: translate(10rem, -10rem);
-}
-
-/* menu */
-.nav-link:hover {
-  color: #65cab0 !important;
-}
-
 /* section */
-.first_page {
-  height: 100vh !important;
-}
-
-.articles_first {
-  height: 90vh !important;
-}
-
 .bertrand {
-  border: 10px solid #B1E4D7;
-}
-
-.presentation {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  border: 5px solid #B1E4D7;
 }
 
 .btn-cv {
@@ -10929,11 +10861,7 @@ body {
 }
 
 .card-article {
-  box-shadow: 15px 15px 15px #F4DED3;
-}
-
-.icons {
-  width: 1Ovw;
+  box-shadow: 5px 5px 5px #F4DED3;
 }
 
 .tableau {
@@ -10946,7 +10874,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .tableau-p2 {
@@ -10954,11 +10882,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   justify-content: space-between;
-  margin-top: 250px;
-}
-
-article {
-  width: 100vw;
+  margin-top: 50px;
 }
 
 .experiences {
@@ -10974,32 +10898,8 @@ article {
 
 .barre_verticale {
   border-left: 4px dashed #F4DED3;
-  height: 600px;
+  height: 50vh;
   display: inline-block;
-}
-
-.logo-li:nth-child(1) {
-  transform: translate(15rem, 0rem);
-}
-
-.logo-li:nth-child(2) {
-  transform: translate(12rem, 12rem);
-}
-
-.logo-li:nth-child(3) {
-  transform: translate(0, 15rem);
-}
-
-.logo-li:nth-child(4) {
-  transform: translate(-12rem, 12rem);
-}
-
-.logo-li:nth-child(5) {
-  transform: translate(-15rem, 0rem);
-}
-
-.logo-li:nth-child(6) {
-  transform: translate(0, 15rem);
 }
 
 /*# sourceMappingURL=style.css.map */

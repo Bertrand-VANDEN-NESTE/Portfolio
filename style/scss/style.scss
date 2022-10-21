@@ -15,31 +15,11 @@ $theme-colors: (
 @import "variable.scss";
 @import "timeline-V.scss";
 @import "timeline.scss";
-@import "orbit.scss";
-
-/* menu */
-.nav-link:hover {
-    color: darken($mintc, 20%) !important;
-}
 
 /* section */
 
-.first_page {
-    height: 100vh !important;
-}
-
-.articles_first {
-    height: 90vh !important;
-}
-
 .bertrand {
-    border: 10px solid $mintc;
-}
-
-.presentation {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    border: 5px solid $mintc;
 }
 
 .btn-cv {
@@ -66,10 +46,6 @@ $theme-colors: (
     @include shadow-bottom;
 }
 
-.icons {
-    width: 1Ovw;
-}
-
 .tableau {
     display: flex;
     justify-content: space-around;
@@ -80,7 +56,7 @@ $theme-colors: (
     text-align: center;
     font-size: 1.5rem;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .tableau-p2 {
@@ -88,11 +64,7 @@ $theme-colors: (
     text-align: center;
     font-size: 1.5rem;
     justify-content: space-between;
-    margin-top: 250px;
-}
-
-article {
-    width: 100vw;
+    margin-top: 50px;
 }
 
 .experiences {
@@ -108,30 +80,6 @@ article {
 
 .barre_verticale {
     border-left: 4px dashed #F4DED3;
-    height: 600px;
+    height: 50vh;
     display: inline-block;
-}
-
-.logo-li:nth-child(1) {
-    transform: translate(15rem, 0rem);
-}
-
-.logo-li:nth-child(2) {
-    transform: translate(12rem, 12rem);
-}
-
-.logo-li:nth-child(3) {
-    transform: translate(0, 15rem);
-}
-
-.logo-li:nth-child(4) {
-    transform: translate(-12rem, 12rem);
-}
-
-.logo-li:nth-child(5) {
-    transform: translate(-15rem, 0rem);
-}
-
-.logo-li:nth-child(6) {
-    transform: translate(0, 15rem);
 }
